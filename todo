@@ -1,0 +1,24 @@
+1) Criar projeto repositorio no git
+2) Clonar projeto no vscode
+3) Criar o .gitignore e dar push
+4) Criar a venv na raiz do projeto
+    $ python -m venv venv
+
+5) Ativar a venv
+    Linux   : [bash] soruce .venv/bin/activate
+    Windows : [cmd ] .\venv\Scripts\activate
+    
+6) Sair do ambiente venv sempre que terminar de desenvolver
+    $ deactivate
+
+7) Configurando o pip (python-instalation-package) para instalar pacotes
+    (venv) > python -m pip
+    (venv) > python -m pip install --upgrade pip
+    (venv) > pip -m install [NOME_PACOTE]=[VERSAO]
+
+8) Instalando o Python-Django e verificando pacotes instalados
+    (venv) > python -m pip install Django
+    (venv) > pip freeze 
+
+9) Criar o arquivo requirments.txt para padronizar os pacotes
+    (venv) > pip freeze > requirments.txt
