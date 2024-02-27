@@ -22,3 +22,7 @@
 
 9) Criar o arquivo requirments.txt para padronizar os pacotes
     (venv) > pip freeze > requirments.txt
+
+10) Em um novo ambiente, clonando projeto e subir o venv e instalar pacotes do requirments
+    [...]
+    (venv) > pip -m install -r requirments.txt
